@@ -1,0 +1,18 @@
+.Nav-Bar-Container {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    
+}
+
+.Nav-Bar-Right {
+    text-align: right;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}

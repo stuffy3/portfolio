@@ -1,0 +1,96 @@
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+        transform: translate(-15%);
+	}
+	100% {
+		opacity: 1;
+        transform: translate(0);
+	}
+}
+
+@keyframes buttonPress {
+    0% {
+		
+        transform: translate(0%);
+	}
+	100% {
+		
+        transform: translate(10%);
+	}
+}
+
+.Big-Circle {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    margin-left: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow:inherit;
+}
+
+.Inner-Circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inline-size: 700px;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+.Arrow-Btn {
+    transition-timing-function: linear;
+    transition: transform .5s;
+    color:#0099ff
+}
+
+button:hover {
+    transform: translate(15%);
+    animation: color-gradient 10s ease infinite;
+    color: var(color-gradient);
+    
+    
+}
+@keyframes color-gradient {
+    0% {
+        color: #0099ff;
+    }
+	10% {
+		color: #00fff2;
+	}
+	20% {
+        color: #00ffc3;
+    }
+    30% {
+        color: #ff9671;
+    }
+	40% {
+        color: #d65db1;
+    }
+	50% {
+		color: #ff00d0;
+	}
+    60% {
+        color: #d65db1;
+    }
+	70% {
+		color: #ff9671;
+	}
+	80% {
+        color: #00ffc3;
+    }
+    90% {
+        color: #00fff2;
+    }
+	100% {
+        color: #0099ff;
+    }
+	
+}
