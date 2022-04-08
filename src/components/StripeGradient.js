@@ -14,10 +14,8 @@ function StripeGradient() {
                     <NavBar />
                 </div>
             
-            <CircleContent />
             </div>
-             
-            
+            <CircleContent />
         </div>
     </div>  
   )

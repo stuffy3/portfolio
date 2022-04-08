@@ -1,0 +1,33 @@
+.Main-Modal-Content{
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 2s;
+}
+
+.Main-Modal-Content-Text {
+    height: 60vh;
+    color: White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.Main-Modal-Content-Text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    animation: fontChange 5s infinite
+}
+
+@keyFrames fontChange {
+    0% {
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    33% {
+        font-family:'Courier New', Courier, monospace;
+    }
+    66% {
+        font-family:'Times New Roman', Times, serif;
+    }
+}

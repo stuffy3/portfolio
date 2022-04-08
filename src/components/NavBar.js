@@ -1,15 +1,20 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import '../css/NavBar.css'
 function NavBar() {
+  const navigate = useNavigate()
   return (
     <div className='Nav-Bar-Container'>
         <div className='Nav-Bar-Right'>
-            <div>
-                <h1>Home</h1>
-            </div>
-            <div>
-                <h1>about</h1>
-                </div>
+              <div>
+                <button onClick={() => navigate("/")}>Home</button>
+              </div>
+              <div>
+              <button onClick={() => navigate("/about")}>About</button>
+              </div>
+              <div>
+              <button onClick={() => navigate("about")}>Projects</button>
+              </div>
         </div>
     </div>
   )

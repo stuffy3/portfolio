@@ -1,15 +1,17 @@
 
 import './App.css';
+import {Routes, Route} from 'react-router-dom'
 import StripeGradient from './components/StripeGradient';
+import About from './components/About';
 
 
 function App() {
   return (
     <div className="App">
-      
-      <StripeGradient />
-      
-      
+      <Routes>
+      <Route path='/' element={<StripeGradient />} />
+      <Route path='about' element={<About />} />
+      </Routes>
     </div>
   );
 }
