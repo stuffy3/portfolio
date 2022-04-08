@@ -11,7 +11,7 @@ function CircleContent() {
     <div className='Big-Circle'>
         <div className='Inner-Circle'>
             <h1>Hello, my name is Tanner, and I'm a web developer.</h1>
-            <button className='Arrow-Btn' onClick={() => navigate('about')} style={{
+            <button className='Arrow-Btn' onClick={() => navigate('/portfolio/about')} style={{
               textDecoration: 'none',
               scrollBehavior: 'smooth',
               fontSize: 100, 

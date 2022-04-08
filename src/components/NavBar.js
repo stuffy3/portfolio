@@ -7,10 +7,10 @@ function NavBar() {
     <div className='Nav-Bar-Container'>
         <div className='Nav-Bar-Right'>
               <div>
-                <button onClick={() => navigate("/")}>Home</button>
+                <button onClick={() => navigate("/portfolio")}>Home</button>
               </div>
               <div>
-              <button onClick={() => navigate("/about")}>About</button>
+              <button onClick={() => navigate("/portfolio/about")}>About</button>
               </div>
               <div>
               <button onClick={() => navigate("about")}>Projects</button>

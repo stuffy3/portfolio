@@ -9,8 +9,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path='/portfolio/' element={<StripeGradient />} />
-      <Route path='about' element={<About />} />
+      <Route path='/portfolio' element={<StripeGradient />} />
+      <Route exact path='/portfolio/about' element={<About />} />
+      
       </Routes>
     </div>
   );
