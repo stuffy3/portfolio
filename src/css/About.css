@@ -70,11 +70,6 @@
     justify-content: center;
     align-content: flex-start;
     align-items: center;
-    /* animation-name: fadeInBottom2;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
-	animation-duration: 2s; */
-    
 }
 
 .About-Inner-Content-Right-Icons-Container {
@@ -93,7 +88,7 @@
     visibility: hidden;
     width: 30%;
     display: flex;
-    margin-bottom: 15px;
+    padding: 10px;
     flex-direction: column;
     animation-name: fadeInBottom2;
 	animation-iteration-count: 1;
@@ -104,6 +99,10 @@
     align-content: flex-start;
     align-items: center;
   
+}
+
+.About-Inner-Content-Right-Icons-Individual>svg:hover {
+    opacity: 60%;
 }
 
 .About-Inner-Content-Right-Icons-Individual:nth-of-type(1) {
@@ -136,6 +135,10 @@
 
   .About-Inner-Content-Right-Icons-Individual:nth-of-type(8) {
     animation-delay: 2.4s;
+  }
+
+  .About-Inner-Content-Right-Icons-Individual:nth-of-type(9) {
+    animation-delay: 2.7s;
   }
 
 
