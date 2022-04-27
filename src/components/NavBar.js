@@ -13,7 +13,7 @@ function NavBar() {
               <button onClick={() => navigate("/portfolio/about")}>About</button>
               </div>
               <div>
-              <button onClick={() => navigate("about")}>Projects</button>
+              <button onClick={() => navigate("/portfolio/projects")}>Projects</button>
               </div>
         </div>
     </div>
