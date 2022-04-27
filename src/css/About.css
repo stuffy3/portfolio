@@ -1,3 +1,5 @@
+
+
 .About {
     display: flex;
     flex-direction: row;
@@ -45,11 +47,81 @@
     justify-content: center;
     align-content: flex-start;
     align-items: center;
+}
+
+
+.About-Inner-Content-Right-Header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
     animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-out;
 	animation-duration: 2s;
-    overflow-y: scroll;
+}
+
+.About-Inner-Content-Right-Icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    /* animation-name: fadeInBottom2;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 2s; */
+    
+}
+
+.About-Inner-Content-Right-Icons-Container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+    
+
+}
+
+.About-Inner-Content-Right-Icons-Individual {
+    visibility: hidden;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    animation-name: fadeInBottom2;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+	animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+  
+}
+
+.About-Inner-Content-Right-Icons-Individual:nth-of-type(1) {
+    animation-delay: .5s;
+  }
+  
+  .About-Inner-Content-Right-Icons-Individual:nth-of-type(2) {
+    animation-delay: 1s;
+  }
+  
+  .About-Inner-Content-Right-Icons-Individual:nth-of-type(3) {
+    animation-delay: 1.5s;
+  }
+
+  .About-Inner-Content-Right-Icons-Individual:nth-of-type(4) {
+    animation-delay: 2s;
+  }
+
+.About-Inner-Content-Right-Icons-Individual>h2 {
+    font-weight: bold;
 }
 
 .Small-Rect-Container {
